@@ -1,0 +1,146 @@
+/*Estilização geral do site*/
+body{
+    font-family:'Arial';
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Estilização do HEADER da página*/
+header{
+    background-color:#11041d;
+}
+/*Estilização do LOGOTIPO*/
+.logo{
+    width: 25%;  
+    margin-left: 350px;  
+}
+/*Estilização do MENU*/
+nav{
+    right: 0;
+    position: absolute;
+    top: 100px;
+    margin-right: 500px;
+    margin-top: 5px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color:'red';
+    text-decoration: underline;
+}
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+/*Estilização do Banner*/
+.banner{
+    width: 100%;
+    height: 100%;
+}
+/*Estilização da sessão Sobre*/
+.sobre{
+    width: 200px;
+    float:left;
+    margin: 0 20px;
+}
+.titulo-sobre{
+    clear: left;
+    text-align: center;
+    font-size: 2em;
+}
+.area-sobre{
+    width: 85%;
+    text-align: justify;
+    margin: auto;
+    background-color: white;
+}
+/*Titulos - Padrão*/
+.titulo-padrao{
+    clear: left;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+/*Estilização da sessão Nosso estabelecimento*/
+.mapa p{
+    text-align: center;
+}
+
+.mapa iframe{
+    display: block;
+    margin:auto;
+}
+.mapa{
+    background: linear-gradient(#ffff, #480f7a);
+}
+/*Estilização da sessão Beneficios*/
+.beneficios{
+    /*background-color: #25093d;*/
+    background: linear-gradient(#480f7a,#1d0731 );
+}
+.itens{
+    color:#ffff;
+    line-height: 1.5;
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.itens:before{
+    content: "⭐";
+}
+.titulo-beneficios{
+    clear: left;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    color:#ffff;
+    padding: 2%;
+}
+.conteudo_beneficios{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.lista_beneficios{
+    width: 20%;
+    display:inline-block;
+    vertical-align: top;
+    list-style:none;
+    padding-left: 30%;
+    margin-top: 30px;
+}
+.img_beneficios{
+    width: 7%;
+    box-shadow: 10px 10px 5px 0px black;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+/*Estilização do video*/
+.video{
+    text-align: center;
+}
+.imgfooter{
+    width:15%;
+    text-align: center;
+}
+.footer{
+    background: linear-gradient(#1d0731, black);
+    text-align: center;
+    padding: 40px;
+}
+.copyright{
+    color:white;
+}
