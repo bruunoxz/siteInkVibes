@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<script>
+    alert("Utilize esse formulário para se comunicar conosco!");
+
+    dia = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+    mes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Outubro", "Novembro", "Dezembro"]
+    data = new Date
+</script>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="assets/img/logo.png" title="Ink Vibes">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="servicos.html">Tatuagens</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <p class="contato_texto">Preencha os campos abaixo com a sua dúvida, reclamação ou elogio e nossa equipe responderá</p>
+        <p class="contato_texto">Nosso horário de funcionamento: Segunda à Sexta das 08h às 17h | <a class="whatsapp-link" href="https://wa.me/5511922220000" target="_blank"> <i class="fa fa-whatsapp"> </i></a>(11) 92222-0000</p>
+            <a class="whatsapp-link" href="https://wa.me/559911" target="_blank"></a>
+        </p>
+        <form name="frmContato" method="get" action="mailto:teste@mail.com" target="_blank">
+            <div class="box">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="input-container">
+                        <label for="nomesobrenome">* Nome e sobrenome</label>
+                        <input type="text" id="nomesobrenome" class="input-padrao" required>
+                    </div>
+                
+                    <div class="input-container">
+                        <label for="email">* E-mail</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="@gmail.com">
+                    </div>
+                
+                    <div class="input-container">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXX-XXXX">
+                    </div>
+                
+                    <div class="input-container">
+                        <label for="mensagem">* Mensagem</label>
+                        <textarea id="mensagem" class="input-padrao" rows="5" required></textarea>
+                    </div>
+
+                    <br>
+                
+                   <div>
+                       <label for="contato">Como prefere nosso contato?
+                            <input type="radio" value="radio-mail" name="Contato">Email
+                            <input type="radio" value="radio-telefone" name="Contato">Telefone
+                            <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+                       </label>
+                   </div>
+
+                   <br>
+                
+                    <div class="input-container">
+                        <label for="horario">Qual o motivo do seu contato?</label>
+                        <select>
+                            <option>Selecione</option>
+                            <option>Sugestão</option>
+                            <option>Elogio</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+
+            <label><input type="checkbox" class="chk">Gostaria de receber nossas novidades por email?</label>
+
+            <br>
+            <br>
+            
+            <input type="submit" value="Enviar Formulário" class="enviar">
+
+            <br>
+            <br>
+        </form>
+    </main>
+    <footer class="footer">
+        <img src="assets/img/logo.png" alt="" class="imgfooter">
+        <p class = "copyright">&copy; Copyright - Todos os direitos reservados para Ink Vibes</p>
+    </footer>
+</body>
+<script>
+
+</script>
+</html>
