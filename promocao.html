@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Promoção</title>
+    <script>
+        function pisca(){
+            var f = document.getElementById("preco_promocao");
+            setInterval(function(){
+                f.style.visibility = (f.style.visibility == 'hidden' ? '': 'hidden');
+            }, 150);
+        }
+    </script>
+</head>
+<body onload="pisca()">
+    <div class="promocao">
+        <img src="assets/img/close-tattoo-machine-tattooing-man-260nw-1510607732.jpg" class="img_promocao">
+        <strong>
+            <p class="txt_promocao">
+                PROMOÇÃO SURPRESA! <br>
+                Todas tatuagens com desconto de:
+            </p>
+        </strong>
+        <strong>
+            <h1 class="preco_promocao" id="preco_promocao">20%</h1>
+        </strong>
+    </div>
+</body>
+</html>

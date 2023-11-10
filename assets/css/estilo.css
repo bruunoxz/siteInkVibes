@@ -238,3 +238,21 @@ fieldset {
   .contato_texto{
     text-align: center;
   }
+  .titlecontato{
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .data{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+.promocao{
+    background-color: #1d0731;
+    text-align: center;
+    color: white;
+}
+.txt_promocao{
+    background-color: black;
+    color: white;
+}

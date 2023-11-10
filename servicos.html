@@ -7,8 +7,18 @@
     <title>Preços</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link href="assets/css/estilo.css" rel="stylesheet">
+    <script>
+        var win = null;
+        function PopPromocao(){
+            pagina="promocao.html"
+            var left = (window.innerWidth=1500)/2;
+            var top = (window.innerHeight=750)/2;
+            settings = "toolbar=no,location=no,directories=no,status=no,menubar=no,width=400,height=400,left="+left+",top="+top+"scrollbar=no,resizable=no"
+            win = window.open(pagina, "OFERTA RELAMPAGO", settings);
+        }
+    </script>
 </head>
-<body>
+<body onload="JavaScript:PopPromocao()">
     <header>
         <div>
             <img class="logo" src="assets/img/logo.png" title="Ink Vibes">

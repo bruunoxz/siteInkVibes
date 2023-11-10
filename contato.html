@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <script>
-    alert("Utilize esse formulário para se comunicar conosco!");
+    //alert("Utilize esse formulário para se comunicar conosco!");
 
-    dia = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
-    mes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Outubro", "Novembro", "Dezembro"]
-    data = new Date
+    var dia = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+    var mes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Outubro", "Novembro", "Dezembro"]
+    var data = new Date();
 </script>
 <body>
     <header>
@@ -30,6 +30,14 @@
         </div>
     </header>
     <main>
+        <div class="data">
+            <script>
+                document.write(dia[data.getDay()]+", "+data.getDate()+" de "+mes[data.getMonth()]+" de "+data.getFullYear())
+            </script>
+        </div>
+        <strong>
+            <h1 class="titlecontato">🟣 CONTATO</h1>
+        </strong>
         <p class="contato_texto">Preencha os campos abaixo com a sua dúvida, reclamação ou elogio e nossa equipe responderá</p>
         <p class="contato_texto">Nosso horário de funcionamento: Segunda à Sexta das 08h às 17h | <a class="whatsapp-link" href="https://wa.me/5511922220000" target="_blank"> <i class="fa fa-whatsapp"> </i></a>(11) 92222-0000</p>
             <a class="whatsapp-link" href="https://wa.me/559911" target="_blank"></a>
