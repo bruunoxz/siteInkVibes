@@ -16,6 +16,14 @@
             settings = "toolbar=no,location=no,directories=no,status=no,menubar=no,width=400,height=400,left="+left+",top="+top+"scrollbar=no,resizable=no"
             win = window.open(pagina, "OFERTA RELAMPAGO", settings);
         }
+
+        function Novidade(){
+            pagina="popup.html"
+            var left = (window.innerWidth-1500)/2;
+            var top = (window.innerHeight-750)/2;
+            settings = "toolbar=no,location=no,directories=no,status=no,menubar=no,width=820,height=680,left="+left+",top="+top+"scrollbar=no,resizable=no"
+            win = window.open(pagina, "NOVIDADE", settings);
+        }
     </script>
 </head>
 <body onload="JavaScript:PopPromocao()">
@@ -52,7 +60,9 @@
                     <p><strong>R$ 500 - R$ 800</strong></p>
                 </div>
             </div>
-
+            <div class="secaoNovidade">
+                <input type="submit" value="Conheça nossa novidade!" class="botaoNovidade" onclick="Novidade()">
+            </div>
         </section>
     </main>
     <footer class="footer">

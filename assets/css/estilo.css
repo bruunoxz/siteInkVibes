@@ -256,3 +256,31 @@ fieldset {
     background-color: black;
     color: white;
 }
+.secaoNovidade{
+    text-align: right;
+}
+.botaoNovidade{
+    margin-left: 750px;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    padding: 30px 130px; /* Aumenta o padding para tornar o botão maior */
+    font-size: 16px; /* Aumenta o tamanho da fonte do texto do botão */
+    background-color: #480f7a;
+    color:#fff
+}
+.container {
+    position: relative;
+}
+
+.effect img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#range {
+    width: 100%;
+}
+
+.informacoes_novidade {
+    margin-top: 20px;
+}
